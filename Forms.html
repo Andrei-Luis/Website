@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+
+        <form enctype="multipart/form-data">
+
+            <label for="Username">Username:</label>
+            <input type="text" id="Username" placeholder="Username67"
+                minlength="4" maxlength="16"> <br>
+
+            <label for="Password">Password:</label>
+            <input type="password" id="Password" minlength="5"
+                maxlength="16"><br>
+
+            <label for="Email">Email:</label>
+            <input type="email" id="email" placeholder="Noob123gago@gmail.com">
+            <br>
+
+            <label for="phoneNum">Phone #:</label>
+            <input type="tel" id="phoneNum" placeholder="+63-949-432-8653"
+                pattern="[63]{2}-[0-9]{3}-[0-9]{3}-[0-9]{4}"> <br>
+
+            <label for="BDay">Birthdate</label>
+            <input type="date" id="BDay"> <br>
+
+            <label for="num">Number:</label>
+            <input type="number" id="num" min="0" max="99"> <br>
+
+            <label for="Java">Java</label>
+            <input type="radio" id="Java" value="Java" name="Languages">
+
+            <label for="C++">C++</label>
+            <input type="radio" id="C++" value="C++" name="Languages">
+
+            <label for="GDScript">GDScript</label>
+            <input type="radio" id="GDScript" value="GDScript" name="Languages">
+            <br>
+
+            <label for="OS">Operating System:</label>
+            <select id="OS">
+                <option value="Windows">Windows</option>
+                <option value="Linux">Linux</option>
+                <option value="Mac">Mac</option>
+            </select> <br>
+
+            <label for="student">Student:</label>
+            <input type="checkbox" id="student"> <br>
+
+            <label for="comm">Thoughts:</label>
+            <textarea id="comm" rows="3ss" cols="20"></textarea><br>
+
+            <label for="file">File:</label>
+            <input type="file" accept="image/png, image/jpeg"> <br>
+
+            <input type="reset"> <br>
+            <input type="submit">
+
+        </form>
+
+    </body>
+</html>

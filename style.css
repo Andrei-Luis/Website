@@ -1,0 +1,64 @@
+@font-face {
+    font-family: Bebas;
+    src: url(Fonts/BebasNeue-Regular.ttf);
+}
+
+@font-face {
+    font-family: Anton;
+    src: url(Fonts/Anton-Regular.ttf);
+}
+
+body {
+    background-color: rgb(163, 39, 17);
+    color: gold;
+
+    border-top: 3px dotted gold;
+    border-left: 3px dotted gold;
+    border-right: 3px dotted gold;
+    border-bottom: 3px dotted gold;
+}
+
+h1 {
+    font-family: Bebas;
+    font-size: 81px;
+    font-weight: bold;
+    margin-top: -1px;
+    margin-left: 63px;
+    text-shadow: 5px 5px 2px black;
+
+}
+
+h3 {
+    text-shadow: 3px 2px black;
+    margin-top: -72px;
+    margin-left: 65px;
+    margin-bottom: 7px;
+}
+
+button {
+    margin-top: -10px;
+    margin-left: 169px;
+    margin-bottom: 4px;
+    text-shadow: 1px 1px rgb(163, 39, 17);
+    outline: 5px black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgb(163, 39, 17);
+    color: rgb(24, 9, 3);
+}
+
+img {
+    margin-left: 95px;
+}
+
+audio {
+    margin-left: 72px;
+}
+
+pre {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 15.5px;
+    font-weight: bold;
+    text-shadow: 3px 2px black;
+    margin-bottom: -50px;
+}
+

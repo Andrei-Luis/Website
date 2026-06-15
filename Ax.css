@@ -1,0 +1,64 @@
+body {
+    background-image: url(Images/ChicagoSkyline.jpg);
+    background-size: cover;
+
+}
+
+h3 {
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: -28px;
+    margin-left: 15px;
+}
+
+#TopBar {
+    margin: auto;
+    height: 35px;
+    width: 1260px;
+    border-radius: 20px;
+    background-color: rgb(24, 24, 24, 0.9);
+}
+
+#SearchBar {
+    height: 25pxs;
+    width: 300px;
+    border: 1px solid rgb(9, 9, 9);
+    border-radius: 20px;
+    text-indent: 10px;
+    margin-top: -42.5px;
+    margin-left: 150px;
+}
+
+#LibraryBar {
+    margin-top: 13px;
+    height: 550px;
+    width: 300px;
+    background-color: rgb(24, 24, 24, 0.9);
+    border-radius: 20px;
+}
+
+#ImagePFPBar {
+    margin-top: -550px;
+    margin-left: 308px;
+    height: 200px;
+    width: 700px;
+    background-color: rgb(24, 24, 24, 0.9);
+    border-radius: 20px;
+
+}
+
+#PFP {
+    border-radius: 500px;
+    height: 140px;
+    margin-top: -1000px;
+    margin-left: 320px;
+    margin-bottom: 25px;
+}
+
+#InfoBar {
+    height: 344px;
+    width: 700px;
+    background-color: rgb(24, 24, 24, 0.9);
+    border-radius: 20px;
+    margin-top: -15px;
+    margin-left: 307px;
+}
